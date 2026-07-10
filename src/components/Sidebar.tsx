@@ -107,7 +107,10 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, setIsOpen }) => {
         <div className="logo-icon">
           <Sparkles size={20} />
         </div>
-        <span className="logo-text">MadhurApexTaskManager</span>
+        <div className="logo-text-wrapper">
+          <span className="logo-title">Madhur</span>
+          <span className="logo-subtitle">ApexTaskManager</span>
+        </div>
       </div>
 
       <div className="sidebar-scrollable">

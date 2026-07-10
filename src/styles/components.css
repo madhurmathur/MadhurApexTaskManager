@@ -49,13 +49,27 @@
   box-shadow: 0 4px 10px rgba(99, 102, 241, 0.3);
 }
 
-.logo-text {
+.logo-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.logo-title {
   font-size: 1.25rem;
   font-family: var(--font-display);
   font-weight: 800;
   background: linear-gradient(135deg, var(--text-primary), var(--color-secondary));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.logo-subtitle {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .sidebar-scrollable {
